@@ -44,5 +44,7 @@ class TestLogin():
         self.login.page_click_btn()  # 点击按钮
     def test01(self):
         print("kkkk")
+    def test01(self):
+        print("jjjj")
 if __name__ == '__main__':
     pytest.main()
