@@ -42,5 +42,7 @@ class TestLogin():
         self.login.page_input_user(username)  # 输入手机号
         self.login.page_input_pwd(password)  # 输入密码
         self.login.page_click_btn()  # 点击按钮
+    def test01(self):
+        print("kkkk")
 if __name__ == '__main__':
     pytest.main()
